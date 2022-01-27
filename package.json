@@ -2,20 +2,14 @@
   "name": "heroku-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.mjs"
+    "start": "node index.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
-  "engines": {
-    "node": "14.x"
   }
 }
